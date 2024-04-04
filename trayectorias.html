@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trayectorias Académicas de Estudiantes</title>
+    <link rel="stylesheet" href="estiloTRAYECTORIAS.css">
+</head>
+<body>
+    <!-- Formulario para ingresar los datos del estudiante -->
+    <form id="formularioEstudiante">
+        <label for="nombreEstudiante">Nombre del Estudiante:</label><br>
+        <input type="text" id="nombreEstudiante" name="nombreEstudiante"><br><br>
+
+        <label for="anio">Año:</label><br>
+        <input type="text" id="anio" name="anio"><br><br>
+
+        <label for="cuatrimestre">Cuatrimestre:</label><br>
+        <input type="text" id="cuatrimestre" name="cuatrimestre"><br><br>
+
+        <!-- Educación Científica y Tecnológica -->
+        <label for="cientificaTecnologica">Educación Científica y Tecnológica:</label><br>
+        <select id="cientificaTecnologica" name="cientificaTecnologica">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Educación en Cs. Sociales y Humanidades -->
+        <label for="socialesHumanidades">Educación en Cs. Sociales y Humanidades:</label><br>
+        <select id="socialesHumanidades" name="socialesHumanidades">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Educación en Lengua y Literatura -->
+        <label for="lenguaLiteratura">Educación en Lengua y Literatura:</label><br>
+        <select id="lenguaLiteratura" name="lenguaLiteratura">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Educación Matemática -->
+        <label for="matematica">Educación Matemática:</label><br>
+        <select id="matematica" name="matematica">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Segundas Lenguas -->
+        <label for="segundasLenguas">Segundas Lenguas:</label><br>
+        <select id="segundasLenguas" name="segundasLenguas">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Educación Física -->
+        <label for="educacionFisica">Educación Física:</label><br>
+        <select id="educacionFisica" name="educacionFisica">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <!-- Educación en Lenguajes Artísticos -->
+        <label for="lenguajesArtisticos">Educación en Lenguajes Artísticos:</label><br>
+        <select id="lenguajesArtisticos" name="lenguajesArtisticos">
+            <option value="Aprobado">Aprobado</option>
+            <option value="No Aprobado">No Aprobado</option>
+        </select><br><br>
+
+        <input type="submit" value="Agregar Trayectoria">
+    </form>
+
+    <!-- Trayectoria de un estudiante -->
+    <div class="trayectoria">
+        <h2>Trayectoria Académica de Estudiante: <span id="nombreEstudianteMostrar"></span></h2>
+        <div id="trayectoriaEstudiante">
+            <!-- Aquí se mostrará la trayectoria del estudiante -->
+        </div>
+    </div>
+</body>
+</html>

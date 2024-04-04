@@ -1,0 +1,45 @@
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Texto en color blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada del texto */
+  }
+  
+  /* Estilo para el título principal */
+  h1 {
+    margin: 0; /* Elimina el margen superior e inferior */
+  }
+  
+  /* Estilo para el contenido principal */
+  main {
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilo para la sección de trayectorias */
+  #trayectorias {
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  /* Estilo para los campos del formulario */
+  form label {
+    display: block; /* Mostrar etiquetas en bloques */
+    margin-bottom: 5px; /* Margen inferior */
+  }
+  
+  form input[type="text"],
+  form input[type="tel"],
+  form textarea {
+    width: 100%; /* Ancho completo */
+    margin-bottom: 10px; /* Margen inferior */
+    padding: 8px; /* Espaciado interno */
+  }
+  
+  /* Estilo para el pie de página */
+  footer {
+    background-color: #333; /* Color de fondo oscuro */
+    color: white; /* Texto en color blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada del texto */
+  }
+  

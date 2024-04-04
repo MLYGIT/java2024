@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la clase Trayectoria */
+.trayectoria {
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.3); /* Sombra verde */
+}
+
+/* Estilos para los espacios curriculares */
+.espacio-curricular {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #d9f2d9; /* Fondo verde claro */
+    border-radius: 5px;
+}
+
+/* Estilos para los nombres de espacios curriculares */
+.nombre {
+    font-weight: bold;
+}
+
+/* Estilos para los cuatrimestres */
+.cuatrimestre {
+    margin-bottom: 15px;
+}
+
+/* Estilos para los botones */
+.boton {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.boton:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
