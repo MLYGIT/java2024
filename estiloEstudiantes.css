@@ -1,4 +1,11 @@
+
 /* Estilo para el encabezado */
+.button{
+  display: flex;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
 header {
     background-color: #333; /* Color de fondo oscuro */
     color: white; /* Texto en color blanco */
@@ -14,6 +21,8 @@ header {
   /* Estilo para el contenido principal */
   main {
     padding: 20px; /* Espaciado interno */
+    margin-left: 30%;
+;
   }
   
   /* Estilo para la sección de trayectorias */
@@ -30,9 +39,11 @@ header {
   form input[type="text"],
   form input[type="tel"],
   form textarea {
-    width: 100%; /* Ancho completo */
+    /* width: 100%; */ /* Ancho completo */
+    width: 50%;
     margin-bottom: 10px; /* Margen inferior */
     padding: 8px; /* Espaciado interno */
+    background-color:bisque;
   }
   
   /* Estilo para el pie de página */
@@ -43,3 +54,7 @@ header {
     text-align: center; /* Alineación centrada del texto */
   }
   
+
+  .clase-personalizada {
+    background-color:cornflowerblue; /* anula el fondo de bootstrap */
+  }
