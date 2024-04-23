@@ -1,12 +1,19 @@
 /* Estilo para el contenedor principal */
 body {
+    
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
+.estilo-personalizado{
+    background-color: cornflowerblue;
+    
+}
+
 header {
+    
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -36,6 +43,7 @@ nav ul li a {
 }
 
 section#main-content {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,6 +52,7 @@ section#main-content {
 }
 
 footer {
+    margin-top: 63px;
     background-color: #333;
     color: #fff;
     text-align: center;
