@@ -34,6 +34,7 @@ header {
   form label {
     display: block; /* Mostrar etiquetas en bloques */
     margin-bottom: 5px; /* Margen inferior */
+    font-weight: bold;
   }
   
   form input[type="text"],
