@@ -1,4 +1,11 @@
 /* Estilos generales */
+header {
+    background-color: #625b5b; /* Color de fondo oscuro */
+    color: white; /* Texto en color blanco */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada del texto */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -90,6 +97,7 @@ header{
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+    text-align: left;
 }
 
 .boton:hover {
